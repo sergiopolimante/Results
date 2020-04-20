@@ -1,0 +1,21 @@
+PROBLEM PARAMETERS
+exp. name: v2.3_vn_Macharet1_vn_lim_2
+waypoints:
+[[   0    0 1013]
+ [2000    0 1013]
+ [2000 2000 1013]
+ [2000    0 1013]
+ [   0  200 1013]]
+mutations: [0.01, 0.1, 0.25]
+sigma: [0.1, 0.25, 0.5, 1, 1.5]
+evaluations: 100000
+n_runs: 1
+cross_uniform_prob: 0.5
+cross_cp_prob: 0
+cross_swap_curves_prob: 0.5
+third_objective: True
+tsp_hotstart: False
+start_method_weights: [1, 1, 3]
+high_n_free_cp: 2
+low_n_free_cp: 0
+write_front_to_file_obs_freq: 20000
