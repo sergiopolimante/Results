@@ -1,0 +1,20 @@
+PROBLEM PARAMETERS
+waypoints: [[   0    0 1013]
+ [2000    0 1013]
+ [2000 2000 1013]
+ [2000    0 1013]
+ [   0  200 1013]]
+third_objective: True
+tsp_hotstart: False
+start_method_weights: [1, 1, 3]
+high_n_free_cp: 2
+low_n_free_cp: 0
+exp_name: v2.3_vn_M1_bench
+mutations: [0.01, 0.25]
+sigma: [0.1, 0.5]
+evaluations: 100000
+n_runs: 3
+cross_uniform_prob: 0.5
+cross_cp_prob: 0
+cross_swap_curves_prob: 0.5
+write_front_to_file_obs_freq: 10000
